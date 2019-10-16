@@ -500,9 +500,10 @@ To learn more about the Nightscout API, visit https://YOUR-SITE.com/api-docs/ or
   * Add `loop` to `SHOW_FORECAST` to show forecasted BG.
 
 For remote overrides, the following extended settings must be configured:
-  * `LOOP_APNS_KEY` - Apple Push Notifications service (APNs) Key, created in the Apple Developer Website
-  * `LOOP_APNS_KEY_ID` - The Key ID for the above key
+  * `LOOP_APNS_KEY` - Apple Push Notifications service (APNs) Key, created in the Apple Developer website.
+  * `LOOP_APNS_KEY_ID` - The Key ID for the above key.
   * `LOOP_DEVELOPER_TEAM_ID` - Your Apple developer team ID.
+  * `LOOP_PUSH_SERVER_ENVIRONMENT` - (optional) Set this to `production` if you are using a provisioning profile that specifies production aps-environment, such as when distributing builds via TestFlight.
 
 ##### `override` (Override Mode)
   Additional monitoring for DIY automated insulin delivery systems to display real-time overrides such as Eating Soon or Exercise Mode:
@@ -665,4 +666,3 @@ License
 
     You should have received a copy of the GNU Affero General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
-
